@@ -60,6 +60,7 @@
   font-family: var(--second-font);
   width: 95%;
   margin-bottom: .7rem;
+  cursor: pointer;
 }
 
 .btn:hover {
