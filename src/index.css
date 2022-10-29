@@ -1,0 +1,15 @@
+* { box-sizing: border-box;
+  margin: 0;
+  padding: 0;    
+}
+html, body { height: 100%;}
+
+:root {
+  font-size: 16px;
+  --first-color: #fcfeff ;
+  --second-color: #004785;
+  --third-color: #dfeaf3;
+  --text-color: #011323;
+  --first-font: "Nunito", sans-serif;
+  --second-font: 'Roboto', sans-serif;;
+}

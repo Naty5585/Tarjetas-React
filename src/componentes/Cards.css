@@ -1,0 +1,70 @@
+.cardSection {
+  background-color: var(--third-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  margin: 1rem;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;  
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-3%);
+  transition: 0.50s ease-in-out;
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.cardInfo{
+  background-color: var(--first-color);
+  color: var(--text-color);
+  font-family: var(--first-font);
+  height: 280px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px .5rem;
+}
+
+.list {
+  align-self:baseline;
+  margin-left: 1rem;
+}
+
+.btn {
+  color: var(--first-color);
+  background-color: var(--second-color);
+  padding: 8px;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1rem;
+  font-family: var(--second-font);
+  width: 95%;
+  margin-bottom: .7rem;
+}
+
+.btn:hover {
+  color: var(--second-color);
+  background-color: var(--first-color);
+  border: 1px solid var(--second-color);
+  transition: all 0.25s;
+}
